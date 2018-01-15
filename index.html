@@ -14,7 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="css/landing-page.css">
 	  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
     <!-- Custom Fonts -->
@@ -36,12 +36,19 @@
 
   ga('create', 'UA-28029508-2', 'auto');
   ga('send', 'pageview');
-
 </script>
 
 </head>
 
 <body>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Personal JavaScript -->
+    <script src="js/personal.js"></script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
@@ -139,45 +146,45 @@
 									<th class="experences text-center">Location</th>
 								</thead>
 								<tr>
-									<td class="text-center">27, May, 2017</td>
-									<td class="text-center">Now</td>
-									<td class="text-center">Intel</td>
-									<td class="text-center">Quality and Reliability Engineer</td>
-									<td class="text-center"></td>
+                                    <td class="text-center"><script>printDates(intel[0])</script></td>
+                                    <td class="text-center"><script>printDates(intel[1])</script></td>
+                                    <td class="text-center"><script>document.write(intel[2])</script></td>
+                                    <td class="text-center"><script>document.write(intel[3])</script></td>
+                                    <td class="text-center"><script>deltaMonths(intel[0], intel[1])</script> months</td>
 									<td class="text-center"><a href="https://www.google.co.kr/maps/@37.4991099,127.0383385,16.86z" target="_blank">Seoul, South Korea</a></td>
 								</tr>
 								<tr>
-									<td class="text-center">03, Oct, 2015</td>
-									<td class="text-center">30, Sep, 2016</td>
-									<td class="text-center">Sandisk</td>
-									<td class="text-center">Senior Software Engineer</td>
-									<td class="text-center">13 months</td>
+                                    <td class="text-center"><script>printDates(sandisk[0])</script></td>
+                                    <td class="text-center"><script>printDates(sandisk[1])</script></td>
+                                    <td class="text-center"><script>document.write(sandisk[2])</script></td>
+                                    <td class="text-center"><script>document.write(sandisk[3])</script></td>
+                                    <td class="text-center"><script>deltaMonths(sandisk[0], sandisk[1])</script> months</td>
 									<td class="text-center"><a href="https://www.google.co.kr/maps/@37.4991099,127.0383385,16.86z" target="_blank">Seoul, South Korea</a></td>
 								</tr>
 								<tr>
-									<td class="text-center">25, Jan, 2010</td>
-									<td class="text-center">02, Jul, 2015</td>
-									<td class="text-center">Samsung Electronics</td>
-									<td class="text-center">Software Engineer</td>
-									<td class="text-center">65 months</td>
+                                    <td class="text-center"><script>printDates(samsung[0])</script></td>
+                                    <td class="text-center"><script>printDates(samsung[1])</script></td>
+                                    <td class="text-center"><script>document.write(samsung[2])</script></td>
+                                    <td class="text-center"><script>document.write(samsung[3])</script></td>
+                                    <td class="text-center"><script>deltaMonths(samsung[0], samsung[1])</script> months</td>
 									<td class="text-center"><a href="https://www.google.co.kr/maps/@37.2211802,127.0685317,14.67z" target="_blank">Hwasung, South Korea</a></td>
 								</tr>
 								<tr>
-									<td class="text-center">01, Jul, 2007</td>
-									<td class="text-center">12, Dec, 2009</td>
-									<td class="text-center">Samsung Software Membership</td>
-									<td class="text-center">Member</td>
-									<td class="text-center">29 months</td>
+                                    <td class="text-center"><script>printDates(swMembership[0])</script></td>
+                                    <td class="text-center"><script>printDates(swMembership[1])</script></td>
+                                    <td class="text-center"><script>document.write(swMembership[2])</script></td>
+                                    <td class="text-center"><script>document.write(swMembership[3])</script></td>
+                                    <td class="text-center"><script>deltaMonths(swMembership[0], swMembership[1])</script> months</td>
 									<td class="text-center"><a href="https://www.google.co.kr/maps/@35.1466242,129.0595505,17.5z" target="_blank">Busan, South Korea</a></td>
-								</tr>
-								<tr>
-									<td class="text-center">30, Oct, 2009</td>
-									<td class="text-center">01, Jun, 2009</td>
-									<td class="text-center">BCPI</td>
-									<td class="text-center">Intern</td>
-									<td class="text-center">3 months</td>
-									<td class="text-center"><a href="https://www.google.co.kr/maps/@14.3156458,121.0283023,14.08z" target="_blank">Cavite, Philippines</a></td>
-							    </tr>				
+								</tr>	
+                                <tr>
+                                    <td class="text-center"><script>printDates(intern[0])</script></td>
+                                    <td class="text-center"><script>printDates(intern[1])</script></td>
+                                    <td class="text-center"><script>document.write(intern[2])</script></td>
+                                    <td class="text-center"><script>document.write(intern[3])</script></td>
+                                    <td class="text-center"><script>deltaMonths(intern[0], intern[1])</script> months</td>
+                                    <td class="text-center"><a href="https://www.google.co.kr/maps/@14.3156458,121.0283023,14.08z" target="_blank">TEST</a></td>
+                                </tr>			
 							 </table>
 			        	</div>
 			    	</div>
@@ -289,22 +296,17 @@
                         <div class="timeline-badge info"><i class="fa fa-codepen"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Venus(client SSD F/W)</h4>
+                                <h4 class="timeline-title"><script>document.write(sandiskProject['name'])</script></h4>
                                 <p>
-                                <small class="text-muted"><i class="fa fa-clock-o">     </i> From Aug.2015 To Sep.2016</small> <br/>
-                                <small class="text-muted"><i class="fa fa-user">        </i> Sandisk Corporation, SouthKorea</small>
-                                <small class="text-muted"><i class="fa fa-credit-card"> </i> Senior Software Engineer </small><br />
-                                <small class="text-muted"><i class="fa fa-file-code-o"> </i> C, ARM, RTOS, Python</small>
+                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script> document.write(sandiskProject['term'])    </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(sandisk[2])                 </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(sandisk[3])                 </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(sandiskProject['language']) </script></small>
                                 </p>
                             </div>
                             <div class="timeline-body">
-                            <p> 
-                            Implementation the F/W of feature to Vendors requirements for client SSD.<br/>
-                            Development of the layers that send data between the Host and FTL on the ThreadX.<br/>
-                            Issue analysis and resolution of numerous problems for performance improvements.<br/>
-                            Various testing. Unit/Integration/Acceptance.
-                            </p>
-                        </div>
+                                <p><script>document.write(sandiskProject['detail'])</script></p>
+                            </div>
                         </div>
                     </li>
                     <!-- /Sandisk -->
@@ -314,21 +316,16 @@
                         <div class="timeline-badge warning"><i class="fa fa-codepen"></i></div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Delphi System(3D NAND first verification)</h4>
+                                    <h4 class="timeline-title"><script>document.write(delphiProject['name'])</script></h4>
                                     <p>
-                                        <small class="text-muted"><i class="fa fa-clock-o">     </i> From Jan.2015 To Aug.2015</small> <br/>
-                                        <small class="text-muted"><i class="fa fa-user">        </i> Samsung Electronics Corporation, Inc., SouthKorea</small>
-                                        <small class="text-muted"><i class="fa fa-credit-card"> </i> Software Engineer </small><br />
-
-                                        <small class="text-muted"><i class="fa fa-file-code-o"> </i> C, R, ARM, Python</small>
+                                        <small class="text-muted"><i class="fa fa-clock-o">     </i> <script> document.write(delphiProject['term']) </script> </small><br/>
+                                        <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(samsung[2])             </script></small><br/>
+                                        <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(samsung[3])             </script></small><br/>
+                                        <small class="text-muted"><i class="fa fa-file-code-o"> </i><script>document.write(delphiProject['language'])</script></small>
                                     </p>
                                 </div>
                                 <div class="timeline-body">
-                                <p>
-                                    Constructed a test scenario and implement F/W for analyze 3D NAND.<br/>
-                                    Constructed test cases that run on the chamber and embedded boards.<br/>
-                                    Developed programs to analyze and visualize the results of huge size of log.<br/>
-                                </p>
+                                    <p><script>document.write(delphiProject['detail'])</script></p>
                                 </div>
                             </div>
                     </li>
@@ -338,41 +335,26 @@
                     <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Test automation system for SSD, eMMC, UFS</h4>
+                                <h4 class="timeline-title"><script>document.write(autoProject['name'])</script></h4>
                                 <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> From Jan.2013 To Dec.2014</small> <br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> Samsung Electronics Corporation, Inc., SouthKorea</small>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> Software Engineer </small><br />
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> Javascipt, jQuery, BootStrap, HTML, CSS, dJango, litesql, C#, WPF</small>
+                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(autoProject['term'])    </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(samsung[2])             </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(samsung[3])             </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(autoProject['language'])</script></small>
                                 </p>
                             </div>
                             <div class="timeline-body">
-                            <p>
-                            Developed a system to automatically install Windows and Test programs of over 1000 PC.
-                            Designed and developed web application for visualizing data of SSD and program for execute Testing.
-                            Developed viewer for current test equipment and developed a program to export Excel files from database tools.
-                            </p>
-                            <hr>
-                            <p>
-                            Developed program that huge size log parsing to write database and make excel file automatically 
-                            Designed and developed web application for visualizing data of SSD.
-                            </p>
-                            <hr>
-                            <p>
-                            Developed a system that is capable of transmitting a command to group multiple boards in a webpage. 
-                            It can be monitored simultaneously about over 700 boards.
-                            Designed and developed web application for test automation system using Python based platform, Django and bootstrap components.
-                            </p>
-                            <hr>
-                            <p>
-                            Developed a program that automatically checks the latest BIOS version and Driver version of PCs in the lab(over 1000), saves it in DB, and exports it as an Excel file. (Vendor’s all PC model like Dell, Lenovo, HP, Sony, etc )   
-                            </p>
-                            <hr>
-                            <p>
-                            Developed a tool for analyzed the log, stored on the Data Server and viewer that showing analysis of test and products information. It also can issue commands to the board by terminal.
-                            </p>         
+                                <p><script>document.write(autoProject['detail_1'])</script></p>
+                                <hr>
+                                <p><script>document.write(autoProject['detail_2'])</script></p>
+                                <hr>
+                                <p><script>document.write(autoProject['detail_3'])</script></p>
+                                <hr>
+                                <p><script>document.write(autoProject['detail_4'])</script></p>
+                                <hr>
+                                <p><script>document.write(autoProject['detail_5'])</script></p>
+                            </div>
                         </div>
-                      </div>
                     </li>
                     <!-- /SSD Team -->
 
@@ -380,21 +362,16 @@
                     <li class="timeline-inverted">
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">MCX, MDX, MFX (controller of client SSD)</h4>
+                                <h4 class="timeline-title"><script>document.write(ctrlProject['name'])</script></h4>
                                 <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> From Jan.2010 To Dec.2012</small> <br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> Samsung Electronics Corporation, Inc., SouthKorea</small>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> Software Engineer </small><br />
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> C, ARM</small>
+                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(ctrlProject['term'])    </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(samsung[2])             </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(samsung[3])             </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(ctrlProject['language'])</script></small>
                                 </p>
                             </div>
                             <div class="timeline-body">
-                            <p>
-                            Verifying controller basic functionality on SATA-based client SSD. <br/>
-                            Generate guide code for S/W team, how to read/write to NAND, setup and use UART, I2C, GPIO etc.<br/>
-                            I have developed a test framework that can be a hardware unit tests on the FPGA environment.<br/>
-                            Developed a lot of test cases according to SSD specification for improving quality of SSD F/W.<br/>
-                            </p>
+                                <p><script>document.write(ctrlProject['detail'])</script></p>
                         </div>
                       </div>
                     </li>
@@ -405,19 +382,16 @@
                         <div class="timeline-badge success"><i class="fa fa-codepen"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Website</h4>
+                                <h4 class="timeline-title"><script>document.write(internProject['name'])</script></h4>
                                 <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> From Jul.2009 To Oct.2009</small> <br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> Best chemicals & Plastics,INC, Philippines</small>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> Intern </small><br />
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> AST.NET, C#, HTML, CSS, Cobol</small>
+                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(internProject['term'])  </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(intern[2])              </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(intern[3])              </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(internProject['language'])</script></small>
                                 </p>
                             </div>
                             <div class="timeline-body">
-                            <p>
-                            Taking photos and making homepage related to the company. <br/>
-                            Maintain factory programs within the company.<br/>
-                            </p>
+                                <p><script>document.write(internProject['detail'])</script></p>
                             </div>
                         </div>
                     </li>
@@ -428,21 +402,16 @@
                         <div class="timeline-badge danger"><i class="fa fa-codepen"></i></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4 class="timeline-title">Various projects</h4>
+                                <h4 class="timeline-title"><script>document.write(secmemProject['name'])</script></h4>
                                 <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> From Jul.2007 To Dec.2009</small> <br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> Samsung software membership, South Korea</small>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> Member </small><br />
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> C, C++, C#, WPF, Adobe Flex, Adobe Air, OpenGL, Linux</small>
+                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(secmemProject['term'])  </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(swMembership[2])        </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(swMembership[3])        </script></small><br/>
+                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(secmemProject['language'])</script></small>
                                 </p>
                             </div>
                             <div class="timeline-body">
-                            <p>
-                            Image search and movie collection, editing, management program using local and web search.<br />
-                            Developed program provides support for environment, such as 3D desktop in the Linux environment. <br />
-                            Developed USB development emulator(USB Virtual Driver) that allows developers to develop for USB devices without hardware in a Windows environment. <br />
-                            Developed a site for video management and playback, Program for editing videos on the Web without encoding.<br />
-                            </p> 
+                                <p><script>document.write(secmemProject['detail'])</script></p> 
                             </div>
                         </div>
                     </li>
@@ -528,6 +497,12 @@
 									<td class="text-center"><a href="https://www.actfl.org/" target="_blank">ACTFL</a></td>
 								</tr>
 								<tr>
+									<td class="text-center">English</td>
+									<td class="text-center">IELTS</td>
+									<td class="text-center">Overall Band Score 5</td>
+									<td class="text-center"><a href="https://www.ielts.org" target="_blank">British Council, UCLES, IDP</a></td>
+								</tr>
+								<tr>
 									<td class="text-center">Korean</td>
 									<td class="text-center" colspan="3">Native</td>
 								</tr>
@@ -554,23 +529,16 @@
                             <!-- Tab panes -->
                             <div class="tab-content">
                                 <div class="tab-pane fade in active text-muted" id="volunteermakeawish" style="padding:15px">
-                                    <h4>General volunteers, South Korea (2010 - 2014) </h4>
-                                    <p>
-                                    I regularly meet with pediatric cancer patients and got acquainted with them. I found out the wishes of the child and his family, and then made that wish. I let them experience the job they want, have something they want, or go to the place they want.
-                                    </p>
-                                    
+                                    <h4><script>document.write(volunteers[0][0])</script></h4>
+                                    <p> <script>document.write(volunteers[0][1])</script></p>   
                                 </div>
                                 <div class="tab-pane fade text-muted" id="volunteersamsung" style="padding:15px">
-                                    <h4>Leader volunteers, South Korea (2010 - 2012)</h4>
-                                    <p>
-									As a leader of volunteer activities, I was planning a participation plan and encouraging people.Regularly visit nursing homes and orphanages, teach violin to children, make sneakers, scarfs and notes for African children, and draw murals.
-                                    </p>
+                                    <h4><script>document.write(volunteers[1][0])</script></h4>
+                                    <p> <script>document.write(volunteers[1][1])</script></p>
                                 </div>
                                 <div class="tab-pane fade text-muted" id="volunteeruniversity" style="padding:15px">
-                                    <h4>Mentor (2007 - 2009)</h4>
-                                    <p>
-                                    I’ve taught seminars for developers until quite recently, and have helped my university juniors to understand C Language, Data structures, and Linux Kernel Internal. The seminars consisted of the following subjects: Proxy Server, Security Server , and Regular Expressions.
-									</p>
+                                    <h4><script>document.write(volunteers[2][0])</script></h4>
+                                    <p> <script>document.write(volunteers[2][1])</script></p>   
                                 </div>
                             </div>
                         </div>
@@ -653,13 +621,6 @@
             </div>
         </div>
     </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>
