@@ -28,14 +28,9 @@ delphiProject['detail']		= " Constructed a test scenario and implement F/W for a
 var autoProject = {};
 autoProject['name']			= " Test automation system for SSD, eMMC, UFS";
 autoProject['language']		= " Javascipt, jQuery, BootStrap, HTML, CSS, dJango, litesql, C#, WPF";
-autoProject['detail_1']		= "Developed a system to automatically install Windows and Test programs of over 1000 PC.</br>\
-                            Designed and developed web application for visualizing data of SSD and program for execute Testing.</br>\
-                            Developed viewer for current test equipment and developed a program to export Excel files from database tools.";
-autoProject['detail_2']		= "Developed program that huge size log parsing to write database and make excel file automatically </br>\
-                            Designed and developed web application for visualizing data of SSD.";
-autoProject['detail_3']		= "Developed a system that is capable of transmitting a command to group multiple boards in a webpage. </br>\
-                            It can be monitored simultaneously about over 700 boards.</br>\
-                            Designed and developed web application for test automation system using Python based platform, Django and bootstrap components.";
+autoProject['detail_1']		= "Developed a system to automatically install Windows and Test programs of over 1000 PC. Designed and developed web application for visualizing data of SSD and program for execute Testing. Developed viewer for current test equipment and developed a program to export Excel files from database tools.";
+autoProject['detail_2']		= "Developed program that huge size log parsing to write database and make excel file automatically. Designed and developed web application for visualizing data of SSD.";
+autoProject['detail_3']		= "Developed a system that is capable of transmitting a command to group multiple boards in a webpage. It can be monitored simultaneously about over 700 boards. Designed and developed web application for test automation system using Python based platform, Django and bootstrap components.";
 autoProject['detail_4']		= "Developed a program that automatically checks the latest BIOS version and Driver version of PCs in the lab(over 1000), saves it in DB, and exports it as an Excel file. (Vendor’s all PC model like Dell, Lenovo, HP, Sony, etc )";
 autoProject['detail_5']		= "Developed a tool for analyzed the log, stored on the Data Server and viewer that showing analysis of test and products information. It also can issue commands to the board by terminal.";
 
