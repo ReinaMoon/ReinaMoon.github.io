@@ -28,6 +28,7 @@ delphiProject['detail']		= " Constructed a test scenario and implement F/W for a
 var autoProject = {};
 autoProject['name']			= " Test automation system for SSD, eMMC, UFS";
 autoProject['language']		= " Javascipt, jQuery, BootStrap, HTML, CSS, dJango, litesql, C#, WPF";
+autoProject['term']			= "From 2013 Jan To 2014 Dec";
 autoProject['detail_1']		= " Developed a system to automatically install Windows and Test programs of over 1000 PC. Designed and developed web application for visualizing data of SSD and program for execute Testing. Developed viewer for current test equipment and developed a program to export Excel files from database tools.";
 autoProject['detail_2']		= " Developed program that huge size log parsing to write database and make excel file automatically. Designed and developed web application for visualizing data of SSD.";
 autoProject['detail_3']		= " Developed a system that is capable of transmitting a command to group multiple boards in a webpage. It can be monitored simultaneously about over 700 boards. Designed and developed web application for test automation system using Python based platform, Django and bootstrap components.";
@@ -38,7 +39,7 @@ autoProject['detail_5']		= " Developed a tool for analyzed the log, stored on th
 var ctrlProject = {};
 ctrlProject['name']		= " MCX, MDX, MFX (controller of client SSD)";
 ctrlProject['language'] = " C, ARM";
-ctrlProject['term']		= " From Jan 2010 To Dec 2012";
+ctrlProject['term']		= " From 2010 Jan To 2012 Dec";
 ctrlProject['detail']	= " Verifying controller basic functionality on SATA-based client SSD. <br/>\
                         Generate guide code for S/W team, how to read/write to NAND, setup and use UART, I2C, GPIO etc.<br/>\
                         I have developed a test framework that can be a hardware unit tests on the FPGA environment.<br/>\
