@@ -88,8 +88,8 @@ function deltaMonths(startDate, endDate){
 	var start_dt = startDate.split(FORMAT);
 	var end_dt = endDate.split(FORMAT);
 
-	var from_dt = new Date(start_dt[0], start_dt[1], start_dt[2]);
-	var to_dt	= new Date(end_dt[0], end_dt[1], end_dt[2]);
+	var from_dt = new Date(start_dt[0], start_dt[1], 	start_dt[2]);
+	var to_dt	= new Date(end_dt[0], 	end_dt[1], 		end_dt[2]);
 
 	//Same year
 	if(start_dt[0] == end_dt[0]){
@@ -109,7 +109,7 @@ function printDates(KoreanTypeDate)
 	}
 	else{
 	var dt = KoreanTypeDate.split(FORMAT);
-	var newdt = new Date(dt[0],dt[1],dt[2])
+	var newdt = new Date(dt[0],dt[1]-1,dt[2])
 
 	document.write(newdt.toDateString().substr(4, 11)); //29 Jan 2009
 	}
