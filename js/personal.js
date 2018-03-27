@@ -3,7 +3,7 @@
 */
 
 
-var intern 			= ["2009-06-01","2009-10-30","BCPI"							,"Intern"]
+var intern 			= ["2009-07-01","2009-10-30","BCPI"							,"Intern"]
 var swMembership 	= ["2007-07-01","2009-12-31","Samsung Software Membership"	,"Member"]
 var samsung 		= ["2010-01-25","2015-07-15","Samsung Electronics"			,"Software Engineer"]
 var sandisk			= ["2015-08-03","2016-09-30","Sandisk"						,"Senior Software Engineer"]
