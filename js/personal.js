@@ -7,7 +7,8 @@ var intern 			= ["2009-07-01","2009-10-30","BCPI"							,"Intern"]
 var swMembership 	= ["2007-07-01","2009-12-31","Samsung Software Membership"	,"Member"]
 var samsung 		= ["2010-01-25","2015-07-15","Samsung Electronics"			,"Software Engineer"]
 var sandisk			= ["2015-08-03","2016-09-30","Sandisk"						,"Senior Software Engineer"]
-var intel			= ["2017-05-29","Now"		,"intel"						,"Customer Qulitify Engineer"]
+var intel			= ["2017-05-29","2018-05-30","Intel"						,"Customer Qulitify Engineer"]
+var ionos			= ["2018-08-15","Now",		 "1&1 IONOS"					,"QA Engineer"]
 
 var sandiskProject = {};
 sandiskProject['name'] 		= " Venus(client SSD F/W)";
