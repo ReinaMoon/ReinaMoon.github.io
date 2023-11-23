@@ -1,636 +1,552 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
+<!-- upto 2 directory depth-->
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Intrudocuce</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">-->
-    <link rel="stylesheet" href="css/landing-page.css">
-	  <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-28029508-2', 'auto');
-  ga('send', 'pageview');
-</script>
-
-</head>
-
-<body>
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Personal JavaScript -->
-    <script src="js/personal.js"></script>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">TOP</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#summary">Summary</a>
-                    </li>
-                    <li>
-                        <a href="#skills">Experences & Skills</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#education">Education & Volunteer</a>
-                    </li>
+    <title>Juyoung Moon's Resume</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
+    </noscript>
+    <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
+    <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
+  </head>
+  <body id="top">
+    <header class="bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
+        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">Juyoung Moon's Resume</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-2">
+              <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+              <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+              <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="page-content">
+      <div id="content">
+<header>
+  <div class="cover bg-light">
+    <div class="container px-3">
+      <div class="row">
+        <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/hello.png" alt="hello"/></div>
+        <div class="col-lg-6">
+          <div class="mt-5">
+            <p class="lead text-uppercase mb-1">Hello!</p>
+            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">I’m Juyoung Moon</h1>
+            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">QA Manager & Engineering Manager</p>
+            <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+              <nav role="navigation">
+                <ul class="nav justify-content-left">
+                  <!--<li class="nav-item"><a class="nav-link" href="https://twitter.com/templateflip" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a></li>-->
+                  <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/moonjuyoung" title="Facebook"><i class="fab fa-facebook"></i><span class="menu-title sr-only">Facebook</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/reinamoon" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/moonju/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
                 </ul>
+              </nav>
             </div>
-            <!-- /.navbar-collapse -->
+            <div class="mt-3" data-aos="fade-up" data-aos-delay="200"><a class="btn btn-primary shadow-sm mt-1 hover-effect" href="#contact">Get In Touch <i class="fas fa-arrow-right"></i></a></div>
+          </div>
         </div>
-        <!-- /.container -->
-    </nav>
-    <!-- /.Navigation -->
-
-    <!-- Header -->
-    <a name="summary"></a>
-    <div class="intro-header">
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>JuYoung Moon</h1>
-                        <h2>Working on a new version. apologize for the inconvenience :-( </h2>
-                        <h3>Fast learner, pragmatic, punctual, rationale, persistent, Hard worker</h3>
-                        <he>
-				It will be coming soon.
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">                      
-                            <li>
-                                <a href="https://github.com/reinaMoon" target="_top" class="btn btn-default btn-lg">
-                                <i class="fa fa-github fa-fw"></i> 
-                                <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://kr.linkedin.com/in/reinaMoon" target="_top" class="btn btn-default btn-lg">
-                                <i class="fa fa-linkedin fa-fw"></i> 
-                                <span class="network-name">Linkedin</span></a>
-                            </li>
-                            <li>
-                            	<a href="https://www.instagram.com/moonju/" target="_top" class="btn btn-default btn-lg">
-                            	<i class="fa fa-instagram fa-fw"></i>
-                            	<span class="network-name">Instagram</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+      </div>
     </div>
-    <!-- /.intro-header -->
-
-    <!-- Page Content -->
-	<a  name="skills"></a>
-        <div class="content-section-a">
-        	<div class="container">
-                <!-- col-lg-12 Experences -->
-				<div class="col-lg-12">
-			  		<div class="panel panel-default">
-                        <div class="panel-heading">
-		        		    <i class="fa fa-list-ul fa-fw"></i> EXPERENCES
-                        </div>
-		        		<div class="panel-body">
-		        		   <table class="table table-hover">
-							    <thead>
-                                    <th class="experences text-center">From</th>
-    								<th class="experences text-center">To</th>
-									<th class="experences text-center">Company Name</th>
-									<th class="experences text-center">Position</th>
-									<th class="experences text-center">Duration</th>
-									<th class="experences text-center">Location</th>
-								</thead>
-								<tr>
-                                    <td class="text-center"><script>printDates(ionos[0])</script></td>
-                                    <td class="text-center"><script>printDates(ionos[1])</script></td>
-                                    <td class="text-center"><script>document.write(ionos[2])</script></td>
-                                    <td class="text-center"><script>document.write(ionos[3])</script></td>
-                                    <td class="text-center"><script>deltaMonths(ionos[0], ionos[1])</script> months</td>
-									<td class="text-center"><a href="https://goo.gl/maps/AVqYAMjurqUzr58k9" target="_blank">Berlin, Germany</a></td>
-								</tr>
-								<tr>
-                                    <td class="text-center"><script>printDates(intel[0])</script></td>
-                                    <td class="text-center"><script>printDates(intel[1])</script></td>
-                                    <td class="text-center"><script>document.write(intel[2])</script></td>
-                                    <td class="text-center"><script>document.write(intel[3])</script></td>
-                                    <td class="text-center"><script>deltaMonths(intel[0], intel[1])</script> months</td>
-									<td class="text-center"><a href="https://www.google.co.kr/maps/place/@37.5225156,126.9195931,17z" target="_blank">Seoul, South Korea</a></td>
-								</tr>
-								<tr>
-                                    <td class="text-center"><script>printDates(sandisk[0])</script></td>
-                                    <td class="text-center"><script>printDates(sandisk[1])</script></td>
-                                    <td class="text-center"><script>document.write(sandisk[2])</script></td>
-                                    <td class="text-center"><script>document.write(sandisk[3])</script></td>
-                                    <td class="text-center"><script>deltaMonths(sandisk[0], sandisk[1])</script> months</td>
-									<td class="text-center"><a href="https://www.google.co.kr/maps/@37.4991099,127.0383385,16.86z" target="_blank">Seoul, South Korea</a></td>
-								</tr>
-								<tr>
-                                    <td class="text-center"><script>printDates(samsung[0])</script></td>
-                                    <td class="text-center"><script>printDates(samsung[1])</script></td>
-                                    <td class="text-center"><script>document.write(samsung[2])</script></td>
-                                    <td class="text-center"><script>document.write(samsung[3])</script></td>
-                                    <td class="text-center"><script>deltaMonths(samsung[0], samsung[1])</script> months</td>
-									<td class="text-center"><a href="https://www.google.co.kr/maps/@37.2211802,127.0685317,14.67z" target="_blank">Hwasung, South Korea</a></td>
-								</tr>
-								<tr>
-                                    <td class="text-center"><script>printDates(swMembership[0])</script></td>
-                                    <td class="text-center"><script>printDates(swMembership[1])</script></td>
-                                    <td class="text-center"><script>document.write(swMembership[2])</script></td>
-                                    <td class="text-center"><script>document.write(swMembership[3])</script></td>
-                                    <td class="text-center"><script>deltaMonths(swMembership[0], swMembership[1])</script> months</td>
-									<td class="text-center"><a href="https://www.google.co.kr/maps/@35.1466242,129.0595505,17.5z" target="_blank">Busan, South Korea</a></td>
-								</tr>	
-                                <tr>
-                                    <td class="text-center"><script>printDates(intern[0])</script></td>
-                                    <td class="text-center"><script>printDates(intern[1])</script></td>
-                                    <td class="text-center"><script>document.write(intern[2])</script></td>
-                                    <td class="text-center"><script>document.write(intern[3])</script></td>
-                                    <td class="text-center"><script>deltaMonths(intern[0], intern[1])</script> months</td>
-                                    <td class="text-center"><a href="https://www.google.co.kr/maps/@14.3156458,121.0283023,14.08z" target="_blank">Carmona Cavite, Philippines</a></td>
-                                </tr>			
-							 </table>
-			        	</div>
-			    	</div>
-				</div>
-                <!-- ./col-lg-12 Experences -->
-
-                <!-- col-lg-12 Skills -->
-				<div class="col-lg-12">
-			  		<div class="panel panel-default">
-						<div class="panel-heading">
-			        		<i class="fa fa-code fa-fw"></i> SKILLS
-                        </div>
-		        		<div class="panel-body">
-                            <div class="row">
-                        		<div class="col-xs-6 col-md-4">
-									<div class="table-responsive text-center">
-				  						<table class="table table-bordered">
-											<thead>
-												<th class="skills text-center">Programming Language</th>
-											</thead>
-											<tr>
-												<td>C, C#, WPF, AutoIt, Javascript, Python, R, JSON</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-								<div class="col-xs-6 col-md-4">
-									<div class="table-responsive text-center">
-										<table class="table table-bordered">
-											<thead>
-												<th class="skills text-center">Web Related</th>
-											</thead>
-											<tr>
-												<td>jQuery, Bootstrap, HTML, CSS</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-								<div class="col-xs-6 col-md-4">
-									<div class="table-responsive text-center">
-				  						<table class="table table-bordered">
-											<thead>
-												<th class="skills text-center">Server Related</th>
-											</thead>
-											<tr>
-												<td>dJango</td>
-											</tr>
-										</table>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-xs-6 col-md-4">
-									<div class="table-responsive text-center">
-				  						<table class="table table-bordered">
-											<thead>
-			  									<th class="skills text-center">Databases</th>
-			  								</thead>
-			  								<tr>
-				  								<td>SQLite</td>
-				  							</tr>
-				    					</table>
-									</div>
-								</div>
-								<div class="col-xs-6 col-md-4">
-									<div class="table-responsive text-center">
-			  							<table class="table table-bordered">
-				  							<thead>
-				  								<th class="skills text-center">Hardware Plaforms</th>
-				  							</thead>
-				  							<tr>
-				  								<td>ARM7, ARM9, cortex M3, cortex R4</td>
-				  							</tr>
-			  							</table>
-				  					</div>
-								</div>
-								<div class="col-xs-6 col-md-4">
-									<div class="table-responsive text-center">
-				  						<table class="table table-bordered">
-				  							<thead>
-				  								<th class="skills text-center">ETC</th>
-											</thead>
-			  								<tr>
-				  								<td>Jira, ClearCase, SVN, Redmine, Accurev, Collaborator, Git, RTOS(xThread)</td>
-				  							</tr>
-			  							</table>
-				  					</div>
-								</div>
-			        		</div>
-			        	</div>
-			        </div>
-			    </div>
-                <!-- /.col-lg-12 -->
-            </div>            
+  </div>
+  <div class="wave-bg"></div>
+</header>
+<div class="section pt-4 px-3 px-lg-4" id="about">
+  <div class="container-narrow">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="h4 my-2">Hello! I’m Juyoung</h2>
+        <p>
+        Results-driven manager with over 17+ years of experience in IT and electronics, specializing in Cloud Computing, SSD, manufacturing, and APAC supplier management. Adept in QA, software development, data analysis, and test/tool automation. Proven track record in system analysis, design, development, and testing across diverse applications. Skilled in optimizing team efficiency and delivering superior products. Demonstrated success in leading and managing teams, driving innovation, and aligning with company objectives.
+        </p>
+        <div class="row mt-3">
+          <div class="col-sm-2">
+            <div class="pb-1">Email:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">moonjuyoung@gmail.com</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">Phone:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">+49-176-4560-2223</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">Address:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">Leipziger Str. Berlin (10117)</div>
+          </div>
+          <div class="col-sm-2">
+            <div class="pb-1">Notice period:</div>
+          </div>
+          <div class="col-sm-10">
+            <div class="pb-1 fw-bolder">2 Months</div>
+          </div>
         </div>
-        <!-- /.container -->
+      </div>
+      <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="avatar img-fluid mt-2" src="images/avatar.jpg" width="400" height="400" alt="Walter Patterson"/></div>
     </div>
-    <!-- /.skills -->
-
-    <!-- Projects -->
-	<a  name="projects"></a>
-		<div class="content-section-a">
-			<div class="container">
-				<div class="col-lg-12">
-                <!-- time line -->
-                <ul class="timeline">
-                    <!-- Sandisk -->
-                    <li>
-                        <div class="timeline-badge info"><i class="fa fa-codepen"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title"><script>document.write(sandiskProject['name'])</script></h4>
-                                <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script> document.write(sandiskProject['term'])    </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(sandisk[2])                 </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(sandisk[3])                 </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(sandiskProject['language']) </script></small>
-                                </p>
-                            </div>
-                            <div class="timeline-body">
-                                <p><script>document.write(sandiskProject['detail'])</script></p>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- /Sandisk -->
-
-                    <!-- NAND -->
-                    <li class="timeline-inverted">
-                        <div class="timeline-badge warning"><i class="fa fa-codepen"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4 class="timeline-title"><script>document.write(delphiProject['name'])</script></h4>
-                                    <p>
-                                        <small class="text-muted"><i class="fa fa-clock-o">     </i> <script> document.write(delphiProject['term']) </script> </small><br/>
-                                        <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(samsung[2])             </script></small><br/>
-                                        <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(samsung[3])             </script></small><br/>
-                                        <small class="text-muted"><i class="fa fa-file-code-o"> </i><script>document.write(delphiProject['language'])</script></small>
-                                    </p>
-                                </div>
-                                <div class="timeline-body">
-                                    <p><script>document.write(delphiProject['detail'])</script></p>
-                                </div>
-                            </div>
-                    </li>
-                    <!-- /NAND -->
-
-                    <!-- SSD Team -->
-                    <li class="timeline-inverted">
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title"><script>document.write(autoProject['name'])</script></h4>
-                                <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(autoProject['term'])    </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(samsung[2])             </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(samsung[3])             </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(autoProject['language'])</script></small>
-                                </p>
-                            </div>
-                            <div class="timeline-body">
-                                <p><script>document.write(autoProject['detail_1'])</script></p>
-                                <hr>
-                                <p><script>document.write(autoProject['detail_2'])</script></p>
-                                <hr>
-                                <p><script>document.write(autoProject['detail_3'])</script></p>
-                                <hr>
-                                <p><script>document.write(autoProject['detail_4'])</script></p>
-                                <hr>
-                                <p><script>document.write(autoProject['detail_5'])</script></p>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- /SSD Team -->
-
-                    <!-- Controller -->
-                    <li class="timeline-inverted">
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title"><script>document.write(ctrlProject['name'])</script></h4>
-                                <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(ctrlProject['term'])    </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(samsung[2])             </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(samsung[3])             </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(ctrlProject['language'])</script></small>
-                                </p>
-                            </div>
-                            <div class="timeline-body">
-                                <p><script>document.write(ctrlProject['detail'])</script></p>
-                        </div>
-                      </div>
-                    </li>
-                    <!-- /Controller -->
-
-                    <!-- Intern -->
-                    <li>
-                        <div class="timeline-badge success"><i class="fa fa-codepen"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title"><script>document.write(internProject['name'])</script></h4>
-                                <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(internProject['term'])  </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(intern[2])              </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(intern[3])              </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(internProject['language'])</script></small>
-                                </p>
-                            </div>
-                            <div class="timeline-body">
-                                <p><script>document.write(internProject['detail'])</script></p>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- /Intern -->
-
-                    <!-- Samsung software membership -->
-                    <li class="timeline-inverted">
-                        <div class="timeline-badge danger"><i class="fa fa-codepen"></i></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4 class="timeline-title"><script>document.write(secmemProject['name'])</script></h4>
-                                <p>
-                                    <small class="text-muted"><i class="fa fa-clock-o">     </i> <script>document.write(secmemProject['term'])  </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-user">        </i> <script>document.write(swMembership[2])        </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-credit-card"> </i> <script>document.write(swMembership[3])        </script></small><br/>
-                                    <small class="text-muted"><i class="fa fa-file-code-o"> </i> <script>document.write(secmemProject['language'])</script></small>
-                                </p>
-                            </div>
-                            <div class="timeline-body">
-                                <p><script>document.write(secmemProject['detail'])</script></p> 
-                            </div>
-                        </div>
-                    </li>
-                    <!-- /Samsung software membership -->     
-                </ul>
-                <!-- /timeline -->
-			</div>
-		</div>
-	<!-- /Projects -->
-
-	<!-- Education -->
-    <a name="education"></a>
-        <div class="content-section-a">
-        	<div class="container">
-                <!-- col-md-6 Experences -->
-				<div class="col-md-6">
-			  		<div class="panel panel-warning">
-						<div class="panel-heading">
-			        		<i class="fa fa-mortar-board"></i> EDUCATION
-                        </div>
-						<div class="panel-body">
-							<h4>TongMyong University, South Korea</h4> <br />
-                        	B.E in Computer Engineering.  GPA : <span class="badge">3.89</span> / <span class="badge">4.5</span> <br />  <br />
-							<div class="panel panel-default">
-                        		<div class="pannel-body">
-		                         	<table class="table table-hover">
-									    <thead>
-		                                    <th class="scholarship text-center">Year</th>
-		    								<th class="scholarship text-center">Semester</th>
-											<th class="scholarship text-center">Scholarship Name</th>
-										</thead>
-										<tr>
-											<td class="text-center">2006</td>
-											<td class="text-center">Second</td>
-											<td class="text-center">Academic Scholarship</td>
-										</tr>
-										<tr>
-											<td class="text-center">2006</td>
-											<td class="text-center">Second</td>
-											<td class="text-center">working-scholarship</td>
-										</tr>
-										<tr>
-											<td class="text-center">2006</td>
-											<td class="text-center">First</td>
-											<td class="text-center">working-scholarship</td>
-										</tr>
-										<tr>
-											<td class="text-center">2006</td>
-											<td class="text-center">First</td>
-											<td class="text-center">Academic Scholarship</td>
-										</tr>
-										<tr>
-											<td class="text-center">2005</td>
-											<td class="text-center">Second</td>
-											<td class="text-center">Academic Scholarship</td>
-										</tr>
-									</table>
-		                        </div>
-		                    </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Education -->
-				<!-- col-md-6 -->
-				<div class="col-md-6">
-					<!-- Languages -->
- 					<div class="panel panel-danger">
-                     	<div class="panel-heading">
-							<i class="fa fa-globe" /> </i> Languages
-						</div>
-						<div class="panel-body">
-							<table class="table">
-								<thead>
-									<th class="text-center">Language</th>
-									<th class="text-center">Name of Test</th>
-									<th class="text-center">Grade</th>
-									<th class="text-center">Organize</th>
-								</thead>
-								<tr>
-									<td class="text-center">English</td>
-									<td class="text-center">Oral Proficiency Interview-Computer</td>
-									<td class="text-center">Intermediate Mid 2</td>
-									<td class="text-center"><a href="https://www.actfl.org/" target="_blank">ACTFL</a></td>
-								</tr>
-								<tr>
-									<td class="text-center">English</td>
-									<td class="text-center">IELTS</td>
-									<td class="text-center">Overall Band Score 5</td>
-									<td class="text-center"><a href="https://www.ielts.org" target="_blank">British Council, UCLES, IDP</a></td>
-								</tr>
-								<tr>
-									<td class="text-center">Korean</td>
-									<td class="text-center" colspan="3">Native</td>
-								</tr>
-							</table>
-						</div>
-                    </div>
-					<!-- /Languages -->
-	                <!-- Volunteer -->
-                    <div class="panel panel-info">
-                        <div class="panel-heading">
-							<i class="fa fa-heart"> </i> Volunteer
-                        </div>
-                        <!-- /.panel-heading -->
-                        <div class="panel-body">
-                            <!-- Nav tabs -->
-                            <ul class="nav nav-tabs">
-                                <li class="active"><a href="#volunteermakeawish" data-toggle="tab">Make a wish</a>
-                                </li>
-                                <li><a href="#volunteersamsung" data-toggle="tab">Samsung Electronics</a>
-                                </li>
-                                <li><a href="#volunteeruniversity" data-toggle="tab">University</a>
-                            </ul>
-
-                            <!-- Tab panes -->
-                            <div class="tab-content">
-                                <div class="tab-pane fade in active text-muted" id="volunteermakeawish" style="padding:15px">
-                                    <h4><script>document.write(volunteers[0][0])</script></h4>
-                                    <p> <script>document.write(volunteers[0][1])</script></p>   
-                                </div>
-                                <div class="tab-pane fade text-muted" id="volunteersamsung" style="padding:15px">
-                                    <h4><script>document.write(volunteers[1][0])</script></h4>
-                                    <p> <script>document.write(volunteers[1][1])</script></p>
-                                </div>
-                                <div class="tab-pane fade text-muted" id="volunteeruniversity" style="padding:15px">
-                                    <h4><script>document.write(volunteers[2][0])</script></h4>
-                                    <p> <script>document.write(volunteers[2][1])</script></p>   
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /.panel-body -->
-                    </div>
-    				<!-- /volunteer -->
-    			</div>
-                <!-- col-md-6 -->
-            </div>
-        </div>
-
-	</div>
-</body>
-
-	
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-4">
-                    <h2>CONNECT TO ME:</h2>
-                    </br>
-                </div>
-                <div class="col-lg-8 pull-center">
-                        <ul class="list-inline intro-social-buttons">                      
-                            <li>
-                                <a href="https://github.com/reinaMoon" target="_top" class="btn btn-default btn-lg">
-                                <i class="fa fa-github fa-fw"></i> 
-                                <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://kr.linkedin.com/in/reinaMoon" target="_top" class="btn btn-default btn-lg">
-                                <i class="fa fa-linkedin fa-fw"></i> 
-                                <span class="network-name">Linkedin</span></a>
-                            </li>
-                            <li>
-                            	<a href="https://www.instagram.com/moonju/" target="_top" class="btn btn-default btn-lg">
-                            	<i class="fa fa-instagram fa-fw"></i>
-                            	<span class="network-name">Instagram</span></a>
-                            </li>
-                        </ul>
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
+  </div>
+</div>
+<div class="section px-3 px-lg-4 pt-5" id="skills">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">My Skills</h2>
     </div>
-    <!-- /.banner -->
+    <div class="text-center">
+      <p class="mx-auto mb-3" style="max-width:600px">
+      I am a quick learner and always prioritize relationships with people. Because no matter what we do, it is ultimately done by people.
+      </p>
+    </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#summary">Summary</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#skills">Experences & Skills</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#projects">Projects</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li>
-                            <a href="#education">Education & Volunteer</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Copyrightⓒ 2017 by Reina Moon. All pictures cannot be copied without permission. </p>
-                </div>
+
+        <div class="row">
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Leadership & Basic Skills</h3>
+                </div><img src="images/skills/people.svg" width="48" height="48" alt="ui-ux"/>
             </div>
+          </div>
+          <div class="card-body h10 px-3 py-2">
+            <p>Trust-based kind leadership</p>
+            <p>Decision-making , Fast-paced Delivery</p>
+            <p>Analytical Thinking, Team Growth and Development</p>
+            <p>Happiness and Productivity, Continuous Improvement</p>
+            <p>Cross-functional Collaboration, Cultural Awareness</p>
+            <p>Data Analysis and Metrics Reporting</p>
+          </div>
         </div>
-    </footer>
-</body>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Process and Project Management</h3>
+              </div><img src="images/skills/computer.svg" width="48" height="48" alt="app development"/>
+            </div>
+          </div>
+          <div class="card-body h10 px-3 py-2">
+            <p>Continuous Integration and Continuous Deployment (CI/CD)
+            <p>Change / Release / Incident / Risk / Assessment Management</p>
+            <p>Process Improvement</p>
+            <p>Agile, Scrum, Waterfall, Kanban</p>
+            <p>Documentation and Reporting</p>
 
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Tech Skills</h3>
+              </div><img src="images/skills/cloud.svg" width="48" height="48" alt="web design"/>
+            </div>
+          </div>
+          <div class="card-body h10 px-3 py-2">
+        <p>System & Application Design
+        <p>Cloud Service(Iaas, Paas, Saas)</p>
+        <p>Programming languages</p>
+        <p>    -   C, C#, WPF, Python, javascript,  jQuery, R, etc</p>
+        <p>Root Cause Analysis</p>
+        <p>Compliance and Regulatory Standards</p>
+        <p>E2E/Regression/Stress/Performance/API Testing and Optimization</p>
+        <p>Storage Systems, NAND, FPGA, Controller</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Etc</h3>
+              </div><img src="images/skills/light.svg" width="48" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body h10 px-3 py-2">
+            <p>Tools & Framework</p>
+            <p>    -   Jira, Confluence, Gitlab, Github, Miro, grafana, promethous, Jenkins, prometheus, Ellure, Django etc</p>
+            <p></p>
+            <p>Quality Assurance Tools</p>
+            <p>    -   PyTest, Selenium, TestCafe, jMeter, Cucumber, etc</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="bg-light p-3">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">English</span><span>90%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100"
+                   data-aos-anchor=".skills-section" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">Korean</span><span>100%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200"
+                   data-aos-anchor=".skills-section" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-md-5 offset-md-2">
+                    <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">German</span><span>10%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300"
+                   data-aos-anchor=".skills-section" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="py-1">
+            <div class="d-flex text-small fw-bolder"><span class="me-auto">Japanese</span><span>70%</span></div>
+            <div class="progress my-1">
+              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400"
+                   data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section px-2 px-lg-4 pt-5 center" id="portfolio">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">Launching </h2>
+    </div>
+  <div style="text-align : center;">
+    <img src="images/wordcloud.png" class="center"/>
+  </div>
+  </div>
+
+  <!-- Experience ----->
+<div class="section px-3 px-lg-4 pt-5" id="experience">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">Experience</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Head of Quality Assurance Cloud</h3>
+                <div class="text-muted text-small">IONOS SE <small>2022 Jun — Present, Berlin Germany</small></div>
+              </div><img src="images/logo/ionos.png" width="52" height="52" alt="ui-ux"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Lead and oversee a global QA team responsible for ensuring the exceptional quality of all software products and services delivered by the company, including IaaS, PaaS, and SaaS offerings.</p>
+            <p>Spearheaded the development and implementation of QANG, a Python-based test framework, to streamline testing processes, increase efficiency, and enhance the overall quality of all products and services.</p>
+            <p>Collaborate closely with development teams to identify and prioritize testing needs, ensuring that software is built to the highest quality standards and meets customer expectations.</p>
+            <p>Drive the establishment and maintenance of robust quality standards, processes, and procedures across the organization, ensuring adherence to industry best practices and regulatory requirements.</p>
+            <p>Partner with the Agile delivery organization to champion agile practices, promote transparency, and provide visibility into areas of concern, fostering a culture of continuous improvement.</p>
+            <p>Promote the adoption of agile development and release processes, integrating QA considerations seamlessly into the new workflows to enhance overall efficiency and quality.</p>
+            <p>Coach and mentor QA team members(including the QA engineer in the Develop team), cultivating a culture of continuous learning, professional growth, and innovation within the team.</p>
+            <p>Successfully implemented capacity management and governance rules for staging environments, ensuring optimal resource allocation and efficient testing procedures.</p>
+            <p>Take charge of establishing key performance indicators (KPIs) and monitoring their progress, driving process improvement initiatives, and providing coaching and guidance to the internal transparency team.</p>
+            <p>Has responsibility for the hiring process and technical task create and code review for candidates. Quarterly team member performance evaluation.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">QA Engineer</h3>
+                <div class="text-muted text-small">IONOS SE <small>2018.Aug —2022 May,  Berlin, Germany</small></div>
+              </div><img src="images/logo/ionos.png" width="52" height="52" alt="app development"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Led testing efforts for a range of cloud computing products, including VM, Nic, Lan, S3, Flowlog, Gateway, Load Balancer, K8s, and DB, utilizing automated test cases and various types of automated testing (Smoke, Introgression, Regression, Performance, and Load testing) to ensure product approval.</p>
+            <p>Built and maintained test plans, test cases, and an automated test framework using Python, pytest, jMeter, Jenkins, K8s, PostgreSQL, TestCafe, Cucumber, REST/SOAP API, Postman, Jenkins, and Git.</p>
+            <p>Managed test environments, analyzed and reported on bugs, and ensured thorough testing.</p>
+            <p>Mentored team members on test case development, Linux, and code review through daily training sessions.</p>
+            <p>Managed the staging environment, including hardware management, as needed.</p>
+            <p>Leading QA Team and acted as the substitute QA team’s manager.</p>
+
+         </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Customer Quality Engineer</h3>
+                <div class="text-muted text-small">Intel Corporation <small>May 2017 - May 2018, Seoul, South Korea</small></div>
+              </div><img src="images/logo/intel.png" width="80" height="48" alt="web design"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Manage entire teams under APAC</p>
+            <p>Provided first-level technical support to customers in APAC, managing requests and handling follow-up issues during product/mass production.</p>
+            <p>Managed relationships with vendors such as Samsung and LG.</p>
+            <p>Maintained the schedule of new project intake and ensured requests were analyzed and tracked.</p>
+            <p>Analyzed and followed up on technical issues, providing relevant information and knowledge transfer, and handling the refund process when necessary.</p>
+            <p>Developed programs using C#, Python, JavaScript, CSS, and Django to address customer issues related to WLAN and CPU products, including Sky Lake, Coffee Lake, and Cannon Lake.</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Senior Software Engineer</h3>
+                <div class="text-muted text-small">Sandisk Corporation <small>Aug 2015 - Sep 2016, Seoul, South Korea</small></div>
+              </div><img src="images/logo/sandisk.png" width="80" height="36" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Focused on developing a data transmission layer between the Host and FTL layers in the ThreadX (RTOS).</p>
+            <p>Analyzed and fixed issues to improve performance.</p>
+            <p>Conducted various testing, including unit, scenario, integration, and acceptance testing, using tools such as Python and Jenkins.</p>
+      </div>
+        </div>
+      </div>
+     <div class="col-md-12">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Software Engineer</h3>
+                <div class="text-muted text-small">Samsung Electronics <small>Jan 2010 - Jul 2015, Hwaseong, South Korea</small></div>
+              </div><img src="images/logo/samsung.png" width="86" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p><b>Team leader - Test Framework Development (Jan 2013 - Jan 2015)</b></p>
+            <p>Led and managed a team of 15 people as the test framework team leader, providing training and guidance to juniors.</p>
+            <p>Designed and implemented a comprehensive test framework.</p>
+            <br/>
+            <p><b>Team leader - 3D NAND Verification with Automation Test (Jan 2015 - Aug 2015)</b></p>
+            <p>Planned and implemented various scenario tests for 3D NAND.</p>
+            <p>Developed firmware that could be tested on the Chamber and Embedded Board for measuring retention, reliability, and performance (using C and ARM).</p>
+            <p>Created programs to analyze and visualize large-sized log results (using C, R, and Python).</p>
+            <br/>
+            <p><b>Team leader - Test Automation System Development (Jan 2013 - Jan 2015)</b></p>
+            <p>Built a test automation system for SSD, UFS, and eMMC, initially applying it to client SSDs and later expanding it across the entire product line.</p>
+            <p>Developed a system that automated the installation and running of various operating systems for testing client SSDs, including monitoring systems and log analyzers.</p>
+            <p>Created a program that automatically checked the latest BIOS and driver versions for PCs, installed them on target PCs, and exported the results (using Python, Django, JavaScript, jQuery, C#, WPF, AutoIt, etc.).</p>
+            <p>Developed various programs as needed within the QA team.</p>
+            <br/>
+            <p><b>SQA for Client SSD's Controller in Developer Team (Jan 2010 - Dec 2012)</b></p>
+            <p>Verified the basic functionality of the controller on SATA-based client SSDs.</p>
+            <p>Developed a test framework for hardware unit tests in the FPGA environment (using C, oscilloscope, logic analyzer).</p>
+            <p>Created numerous test cases based on SSD specifications to improve firmware quality (using C, UART, I2C, DRAM, ARM, etc.).</p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Software Engineer</h3>
+                <div class="text-muted text-small">Samsung Software Membership <small>Jul 2007 - Dec 2009, Busan, South Korea
+</small></div>
+              </div><img src="images/logo/ssm.png" width="48" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p><b>Image Search and Movie Collection Editing Management Program (C#, WPF)</b></p>
+            <p>Developed an application program that enables image search and movie collection editing and management.</p>
+            <p>Utilized local and web search functionalities to enhance the user experience.</p>
+            <br/>
+            <p><b>3D Desktop Support Application for Linux Environment (C, C++, Qt)</b></p>
+            <p>Developed an application program that provides support for the Linux environment, including a 3D desktop.</p>
+            <p>Implemented features and functionalities to enhance the desktop experience in a 3D environment.</p>
+            <br/>
+            <p><b>USB Development Emulator (USB Virtual Driver) for Windows (C#, C)</b></p>
+            <p>Developed a USB development emulator, also known as a USB virtual driver, to assist developers in USB device development without the need for hardware.</p>
+            <p>Created a software solution that emulates USB devices, allowing developers to test and develop their USB applications in a Windows environment.</p>
+            <br/>
+            <p><b>Video Management and Playback Website, Web-based Video Editing Program (Adobe Flex, Adobe Air)</b></p>
+            <p>Developed a website for video management and playback, providing users with a platform to manage and play their video content.</p>
+            <p>Created a web-based video editing program that allows users to edit videos without the need for encoding.</p>
+            <p>Utilized Adobe Flex and Adobe Air technologies to build a rich and interactive user interface for video editing tasks.</p>
+
+
+        </div>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
+          <div class="card-header px-3 py-2">
+            <div class="d-flex justify-content-between">
+              <div>
+                <h3 class="h5 mb-1">Intern</h3>
+                <div class="text-muted text-small">Best Chemical & Plastics Inc <small>Jul 2009 - Oct 2009, Carmona City, Cavite, Philippines</small></div>
+              </div><img src="images/services/full-stack.svg" width="48" height="48" alt="full stack"/>
+            </div>
+          </div>
+          <div class="card-body px-3 py-2">
+            <p>Developed the company’s website using APS.NET and managed the workers in the Philippines</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Experience End --->
+
+<div class="section px-3 px-lg-4 pt-5" id="testimonials">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">Education</h2>
+    </div>
+    <div class="row"> 
+      <div class="col-md-12 mb-5" data-aos="fade-right" data-aos-delay="100">
+        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">
+          <b>Computer Engineering</b><br/>
+          Majored in Computer Engineering. GPA 3.89/4.5 (93.9/100)<br/>
+          During my university years, I consistently ranked first in my class on four occasions, earning me a prestigious scholarship that fully covered my tuition expenses.
+           </span></div>
+        <div class="d-flex justify-content-end align-items-end">
+          <div class="text-end me-2">
+            <div class="fw-bolder">TongMyung University</div>
+            <div class="text-small">2005 - 2010, Busan, South Korea</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-12 mb-5" data-aos="fade-left" data-aos-delay="300">
+        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">
+          <b>Software</b><br/>
+          Studied data structure, Algorithm, programming, application development, database etc.
+        </span></div>
+        <div class="d-flex justify-content-end align-items-end">
+          <div class="text-end me-2">
+            <div class="fw-bolder">Busan Computer Science High School</div>
+            <div class="text-small">2002 - 2005</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section px-2 px-lg-4 pb-4 pt-5 mb-5" id="contact">
+  <div class="container-narrow">
+    <div class="text-center mb-5">
+      <h2 class="marker marker-center">Contact Me</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="bg-light my-2 p-3 pt-2"><form action="https://formspree.io/f/mknllwol"
+    method="POST">
+    <div class="form-group my-2">
+      <label for="name" class="form-label fw-bolder">Name</label>
+      <input class="form-control" type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group my-2">
+      <label for="email" class="form-label fw-bolder">Email</label>
+      <input class="form-control" type="email" id="email" name="_replyto" required>
+    </div>
+  <div class="form-group my-2">
+    <label for="message" class="form-label fw-bolder">Message</label>
+    <textarea class="form-control" style="resize: none;" id="message" name="message" rows="4" required></textarea>
+  </div>
+  <button class="btn btn-primary mt-2" type="submit">Send</button>
+</form>
+        </div>
+      </div>
+      <div class="col-md-6" data-aos="fade-left" data-aos-delay="300">
+        <div class="mt-3 px-1">
+          <div class="h5">Let’s talk how I can help you!</div>
+          <p>If you know of an open position that would suit me, or would like to have a coffee chat with me,<img src="images/coffee.png"></p>
+          <p>please send me a message using the contact form.</p>
+          <p>Or contact me via my email or cell phone number.</p>
+          <p>See you soon!</p>
+        </div>
+        <div class="mt-53 px-1">
+          <div class="row"> 
+            <div class="col-sm-2">
+              <div class="pb-1">Email:</div>
+            </div>
+            <div class="col-sm-10">
+              <div class="pb-1 fw-bolder">moonjuyoung@gmail.com</div>
+            </div>
+            <div class="col-sm-2">
+              <div class="pb-1">Phone:</div>
+            </div>
+            <div class="col-sm-10">
+              <div class="pb-1 fw-bolder">+49-176-4560-2223</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="pt-4 pb-4 text-center bg-light">
+  <div class="container">
+    <div class="my-3">
+      <div class="h4">Juyoung Moon</div>
+      <p>QA Manager & Engineering Manager</p>
+    </div>
+    <div class="text-small text-secondary">
+      <div class="mb-1">&copy; Super Folio. All rights reserved.</div>
+      <div>
+        <!-- Make sure to buy a license for the template before removing the line below. Buy license on https://templateflip.com/ -->Design - <a href="https://templateflip.com/" target="_blank">TemplateFlip</a></div>
+    </div>
+  </div>
+</footer></div>
+    </div>
+    <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
+    <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+    <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+    <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+    <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
+    <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+    <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+    <script src="./scripts/main.js?ver=1.2.0"></script>
+  </body>
 </html>
